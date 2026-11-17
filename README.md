@@ -26,7 +26,7 @@ Die Regel Capricorn lässt jede Antwort der KI mit dem Präfix „🐐 “ begin
 Führe den Befehl im Terminal aus oder lass ihn von deiner KI ausführen. Der Installer fragt dich selbst.
 
 ```sh
-f=$(mktemp) && curl -fsSL https://raw.githubusercontent.com/aibex-aibos/aibos-installer/v0.2.0/install.sh -o "$f" && echo "<sha256 von install.sh v0.2.0>  $f" | shasum -a 256 -c - && sh "$f" "distribution-capricorn==0.10.0" <commit des Kernel-Tags v0.7.0>
+f=$(mktemp) && curl -fsSL https://raw.githubusercontent.com/aibex-aibos/aibos-installer/v0.2.0/install.sh -o "$f" && echo "6f87df27f58d3ad7a06394c6686676c7d5e75c05b2e6999b92e2346a62b1f97d  $f" | shasum -a 256 -c - && sh "$f" "distribution-capricorn==0.10.0" 1441feb4ef6e86a309fd4bf58e0a027ea0248f91
 ```
 
 Der Installer prüft die Voraussetzungen (macOS, Python ≥ 3.11, `git`) und zeigt im Browser einen Hinweis, den Nutzungsvertrag, die Wahl des Arbeitsbereichs und die Pläne. Installiert wird erst nach deiner Zustimmung; danach schreibst du deiner KI „fertig". Ein GitHub-Konto brauchst du nicht.
