@@ -1,5 +1,5 @@
 name: distribution-capricorn
-version: 0.12.0-rc1
+version: 0.12.0
 type: distribution
 description: "Capricorn — AIBOS mit Video-Analyse, Bilderstellung, Schautafel, Blog als PDF, Capability-Tree, Abschluss mit /cleanup, den Assistentinnen Anja, Sandra und Claudia und der Regel Capricorn"
 license: Apache-2.0
